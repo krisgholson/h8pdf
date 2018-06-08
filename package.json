@@ -1,7 +1,7 @@
 {
   "name": "h8pdf",
   "version": "1.0.0",
-  "description": "Free your data from pdfs! Stop the madness. ",
+  "description": "Free your data from pdfs! Stop the madness.",
   "main": "handler.js",
   "scripts": {
     "test": "jest"
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/krisgholson/h8pdf/issues"
   },
-  "homepage": "https://github.com/krisgholson/h8pdf#readme"
+  "homepage": "https://github.com/krisgholson/h8pdf#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^2.0.489"
+  }
 }
