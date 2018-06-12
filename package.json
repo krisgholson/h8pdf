@@ -4,7 +4,7 @@
   "description": "Free your data from pdfs! Stop the madness.",
   "main": "handler.js",
   "scripts": {
-    "test": "jest"
+    "test": "node ./lib/pdf.test.js"
   },
   "repository": {
     "type": "git",
@@ -16,10 +16,8 @@
     "url": "https://github.com/krisgholson/h8pdf/issues"
   },
   "homepage": "https://github.com/krisgholson/h8pdf#readme",
-  "devDependencies": {
-    "jest": "^23.1.0"
-  },
   "dependencies": {
-    "pdfjs-dist": "^2.0.489"
+    "pdfjs-dist": "^2.0.489",
+    "ramda": "^0.25.0"
   }
 }
